@@ -961,8 +961,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Lid",
-                    "x": 0.7208994708994708,
-                    "y": 0.9076923076923077,
+                    "x": 0.7162698412698413,
+                    "y": 0.8549382716049383,
                     "uniqueID": 142760,
                     "ioValues": [
                         {
@@ -1018,8 +1018,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.6236772486772487,
-                            "y": 0.4646153846153846,
+                            "x": 0.623015873015873,
+                            "y": 0.48148148148148145,
                             "uniqueID": 723807,
                             "ioValues": [
                                 {
@@ -1809,7 +1809,12 @@
                             "x": 0.9867724867724867,
                             "y": 0.5,
                             "uniqueID": 850155,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "source/831339/769161/142760/452378Move"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -1837,16 +1842,16 @@
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap2Primary": true,
+                            "ap2Primary": false,
                             "ap1ID": 723807,
-                            "ap2ID": 452378
+                            "ap2ID": 175430
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap2Primary": false,
+                            "ap2Primary": true,
                             "ap1ID": 723807,
-                            "ap2ID": 175430
+                            "ap2ID": 452378
                         },
                         {
                             "ap1Name": "Geometry",
@@ -1905,7 +1910,7 @@
                         },
                         {
                             "name": "3D shape 3",
-                            "ioValue": "source/106159/497068/142760Molecule"
+                            "ioValue": "source/831339/769161/142760Molecule"
                         }
                     ]
                 }
@@ -2076,7 +2081,7 @@
                     "atomType": "GitHubMolecule",
                     "name": "Cyclone",
                     "x": 0.09854497354497355,
-                    "y": 0.24,
+                    "y": 0.19753086419753085,
                     "uniqueID": 540954,
                     "projectID": "499301071",
                     "ioValues": [
@@ -2153,10 +2158,6 @@
                             "ioValue": 25.5
                         },
                         {
-                            "name": "Shape",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "Number",
                             "ioValue": 4
                         }
@@ -2172,19 +2173,19 @@
                     "ioValues": [
                         {
                             "name": "3D shape 1",
-                            "ioValue": "source/106159/940952/921144Move"
+                            "ioValue": "source/831339/223738/921144Move"
                         },
                         {
                             "name": "3D shape 2",
-                            "ioValue": "source/106159/940952/128233GitHubMolecule"
+                            "ioValue": "source/831339/223738/128233GitHubMolecule"
                         },
                         {
                             "name": "3D shape 3",
-                            "ioValue": "source/106159/940952/336011Move"
+                            "ioValue": "source/831339/223738/336011Move"
                         },
                         {
                             "name": "3D shape 4",
-                            "ioValue": "source/106159/940952/927798Move"
+                            "ioValue": "source/831339/223738/927798Move"
                         }
                     ]
                 },
@@ -2197,7 +2198,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "source/106159/940952/128233GitHubMolecule"
+                            "ioValue": "source/831339/223738/128233GitHubMolecule"
                         },
                         {
                             "name": "xDist",
@@ -2222,7 +2223,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "source/106159/940952/921144Move"
+                            "ioValue": "source/831339/223738/921144Move"
                         },
                         {
                             "name": "xDist",
@@ -2247,7 +2248,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "source/106159/940952/593617Assembly"
+                            "ioValue": "source/831339/223738/593617Assembly"
                         }
                     ]
                 },
@@ -2260,7 +2261,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "source/106159/940952/336011Move"
+                            "ioValue": "source/831339/223738/336011Move"
                         },
                         {
                             "name": "xDist",
@@ -2282,7 +2283,12 @@
                     "x": 0.9867724867724867,
                     "y": 0.5,
                     "uniqueID": 298793,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "source/831339/223738/593617Assembly"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -2369,15 +2375,15 @@
             "unitsIndex": 0
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.8253968253968255,
-            "y": 0.5154320987654321,
-            "uniqueID": 289323,
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.5158730158730159,
+            "y": 0.8055555555555556,
+            "uniqueID": 674882,
             "ioValues": [
                 {
-                    "name": "diameter",
-                    "ioValue": 10
+                    "name": "geometry",
+                    "ioValue": "source/831339/223738Molecule"
                 }
             ]
         },
@@ -2390,7 +2396,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "source/831339/289323Circle"
+                    "ioValue": "source/831339/769161Molecule"
                 }
             ]
         }
@@ -2405,17 +2411,24 @@
         },
         {
             "ap1Name": "Geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 769161,
+            "ap2ID": 110001
+        },
+        {
+            "ap1Name": "Geometry",
             "ap2Name": "Cyclones",
             "ap2Primary": false,
             "ap1ID": 223738,
             "ap2ID": 769161
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
             "ap2Primary": false,
-            "ap1ID": 289323,
-            "ap2ID": 110001
+            "ap1ID": 223738,
+            "ap2ID": 674882
         }
     ],
     "fileTypeVersion": 1,
