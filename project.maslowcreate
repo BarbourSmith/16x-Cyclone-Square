@@ -1,0 +1,189 @@
+{
+    "atomType": "Molecule",
+    "name": "16x Cyclone Square",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 831339,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9867724867724867,
+            "y": 0.5,
+            "uniqueID": 110001,
+            "ioValues": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "16 Cyclones Square",
+            "x": 0.5134656084656085,
+            "y": 0.8407692307692308,
+            "uniqueID": 823491,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Cyclone",
+                    "x": 0.09854497354497355,
+                    "y": 0.24,
+                    "uniqueID": 540954,
+                    "projectID": "499301071",
+                    "ioValues": [],
+                    "simplify": false
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.19973544973544974,
+                    "y": 0.3446153846153846,
+                    "uniqueID": 471016,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/106159/940952/540954GitHubMolecule"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Linear Pattern",
+                    "x": 0.30092592592592593,
+                    "y": 0.36615384615384616,
+                    "uniqueID": 128233,
+                    "projectID": "304166099",
+                    "ioValues": [],
+                    "simplify": false
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.5185185185185185,
+                    "y": 0.49846153846153846,
+                    "uniqueID": 593617,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.3220899470899471,
+                    "y": 0.6553846153846153,
+                    "uniqueID": 921144,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/106159/940952/128233GitHubMolecule"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 25.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.3948412698412699,
+                    "y": 0.7753846153846153,
+                    "uniqueID": 336011,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/106159/940952/921144Move"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 25.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Stl",
+                    "name": "Stl",
+                    "x": 0.5939153439153438,
+                    "y": 0.6676923076923077,
+                    "uniqueID": 469393,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/106159/940952/593617Assembly"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.4953703703703704,
+                    "y": 0.8276923076923077,
+                    "uniqueID": 927798,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/106159/940952/336011Move"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 25.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9867724867724867,
+                    "y": 0.5,
+                    "uniqueID": 298793,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "simplify": false,
+            "unitsIndex": 0
+        }
+    ],
+    "allConnectors": [],
+    "fileTypeVersion": 1,
+    "simplify": false,
+    "unitsIndex": 0,
+    "filetypeVersion": 1,
+    "circleSegmentSize": "0.051"
+}
